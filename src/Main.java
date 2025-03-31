@@ -4,12 +4,12 @@
 public class Main {
 
     public static void main(String[] args) {
-        int a = 3;
-        int b = 4;
+        int[] a = {3};
+        int[] b = {4};
 
-        b=a;
-        a = 5;
-        System.out.println(b);
+        a=b;
+        a[0] = 5;
+        System.out.println(b[0]);
 
     }
 }
